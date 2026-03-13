@@ -18,7 +18,7 @@ import type { Lang } from '@/lib/translations'
 export type ModalContext = 'kaan' | 'portfolio' | 'general'
 
 export default function Home() {
-  const [lang, setLang] = useState<Lang>('en')
+  const [lang, setLang] = useState<Lang>('es')
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [modalContext, setModalContext] = useState<ModalContext>('general')
   const [isBuyModalOpen, setIsBuyModalOpen] = useState(false)
